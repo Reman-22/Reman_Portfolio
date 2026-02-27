@@ -1,0 +1,58 @@
+.BestProjectSection {
+  padding: 50px 20px;
+  overflow: hidden;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.scroll-btns {
+  display: flex;
+  gap: 15px;
+}
+
+.scroll-btns button {
+  background-color: #333; 
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+}
+
+.scroll-btns button:hover {
+  background-color: #555;
+}
+
+
+.cards-wrapper {
+  display: flex;
+  gap: 25px;
+  overflow-x: hidden; 
+  scroll-behavior: smooth; 
+  padding: 10px 5px;
+}
+
+/* تأكد أن كل كرت له حجم ثابت ولا ينكمش */
+.cards-wrapper > div {
+  min-width: 320px; 
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .header-nav {
+    flex-direction: column; /* جعل العنوان والأزرار فوق بعضهم */
+    gap: 15px;
+    text-align: center;
+  }
+
+  .cards-wrapper > div {
+    min-width: 280px; /* تصغير عرض الكرت قليلاً ليناسب الموبايل */
+    flex-shrink: 0;
+  }
+}

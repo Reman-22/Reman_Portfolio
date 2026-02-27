@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 4%;
+    border-top: 2px black solid;
+    p{
+        font-size: clamp(0.5rem, 2.5vw,1rem);
+    }
+    .SocialIcons{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        a{
+            width: 40px;
+            height: 40px;
+            background-color: #0C96E2;
+            color: white;
+            border-radius: 50%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width:768) {
+    .SocialIcons{
+        gap: 10px;
+        a{
+            width: 30px;
+            height: 30px;
+            font-size:14px ;
+        }
+    }
+}

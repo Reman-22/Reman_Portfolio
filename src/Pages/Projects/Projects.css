@@ -1,0 +1,18 @@
+.nav{
+    margin: 10px  10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    h1{
+        width: 250px;
+    }
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    /* padding: 0 7%; */
+    align-items: center;
+}

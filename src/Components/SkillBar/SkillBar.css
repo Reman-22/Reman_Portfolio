@@ -1,0 +1,68 @@
+.skill_container {
+  width: 100%;
+  margin-bottom: 35px; 
+}
+
+.skill_name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  /* color: #333; */
+  display: block;
+  margin-bottom: 12px;
+}
+
+.skill_bar {
+  width: 100%;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  position: relative;
+}
+
+.skill_progress {
+  height: 100%;
+  background-color: #0091ea;
+  border-radius: 10px;
+  position: relative;
+  transition: width 1.5s ease-in-out;
+}
+
+/* الدائرة البيضاء في نهاية النسبة */
+.skill_dot {
+  position: absolute;
+  right: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border: 2px solid #0091ea;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* فقاعة النسبة الزرقاء */
+.skill_tooltip {
+  position: absolute;
+  right: -22px;
+  top: -35px;
+  background-color: #0091ea;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* المثلث الصغير تحت الفقاعة */
+.skill_tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #0091ea;
+}

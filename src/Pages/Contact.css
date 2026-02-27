@@ -1,0 +1,38 @@
+.Cont{
+    margin: 5%;
+    h1{
+            margin: 50px ;
+        }
+    .Contact{
+        display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 50%;            
+            input{
+                padding: 20px;
+                border: 2px #BEC0BF solid;
+                margin: 10px;
+                border-radius: 8px;
+            }
+            :nth-child(4){
+                    height: 100px;
+                    padding-top: 0;
+                    vertical-align:text-top;
+        }
+}
+}}
+@media (max-width:768px){
+    .Contact{
+        display: flex;
+        flex-direction: column !important ;
+        align-items: center;
+        .inputs{
+        width: 80% !important;
+        }
+    }
+}

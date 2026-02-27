@@ -1,0 +1,146 @@
+.Hero{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: start;
+    margin:10%  5%;
+    position: relative;
+    background-image: url('/public/Images/Vector\ 1.png'),url('/public/Images/Vector\ 3.png');
+     .Hero1::before{
+        content:"";
+        position: absolute;
+        margin: 50px;
+        top: 0;
+        left: 0;
+        right:50%;
+        bottom: 0;
+        background: radial-gradient(circle,
+        #9BFFA5 0%,
+        #AED3FF 25%,
+        #C9D4EF 50%,
+        #D798E1 75%,
+        #CACFFA 100%);
+        filter:blur(70px);
+        opacity: 0.6;
+        z-index: -1;
+    }
+    .Hero1{
+        width:90%;
+        margin: 50px;
+        z-index: 1;
+    .title{
+    font-size:clamp(1.8rem ,5vw, 3rem);
+    font-weight: 700;
+    .hey-style{
+        color: #43495B;
+    }
+    }
+    .description{
+        font-size: clamp(1rem, 2.5vw,1.5rem);
+        padding: 10px;
+        font-weight: 400;
+        width: 60%;
+        color: #43495B;
+    }
+    .btn{
+        background-color: #fff;
+        border-radius: 6px;
+        color: #222;
+        font-size: clamp(1rem, 2.5vw,1.5rem);
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        &:hover{
+                color: #fff;
+                background-color: #222;
+            }
+        a{
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+    }
+}}
+.image_container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: visible;
+}
+    .Circle{
+        position: absolute;
+        background-color: #DFE1FA;
+        border-radius: 50%;
+        max-width: 350px;
+        max-height:400px ;
+        z-index: 0;
+        top: 10%;
+        right: 5%;
+}
+    .Image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    margin-top: -100px;
+    z-index: 2;
+} 
+.Circle_purple{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(183, 76, 183);
+    right: 60%; 
+    top: 0;
+    z-index: 1;
+    position: absolute;
+    border-radius: 40%;
+    transform: rotate(15deg);
+}
+.Circle_blue{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(62, 208, 234);
+    right: 5%; 
+    top: 20%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 40%;
+    transform: rotate(15deg);
+}
+.Circle_purple1{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(183, 76, 183);
+    right: 10%; 
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(15deg);
+    top: 10%;
+}
+.Circle_blue1{
+    width:20px;
+    height: 20px;
+    background-color: rgb(62, 208, 234);
+    right: 4%; 
+    top: 40%;
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(15deg);
+}
+@media (max-width:768px){
+    .Hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,66 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+.info{
+    width:50%;
+    margin: 20px;
+}
+.imgs{
+    background-image: url('/public/Images/Circles.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.icon img {
+    width: 100%;
+    height: auto;
+}
+
+.html { top: 20%; left: 20%; }
+.css { top: 50%; left: 40%; } 
+.figma { top: 30%; right: 35%; }
+.github { bottom: 35%; left: 15%; }
+.react { bottom: 20%; right: 35%; }
+
+/* حركة بسيطة (floating) */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.icon {
+    animation: float 3s ease-in-out infinite;
+}
+@media(max-width:768px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgs{
+        width: 80%;
+        height: 300px;
+        background-size: contain;
+        margin-top: 20px;
+    }
+        .icons{
+        width: 30px;
+        height: 30px;
+        }
+    
+}
