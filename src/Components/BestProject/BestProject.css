@@ -41,7 +41,7 @@
 
 /* تأكد أن كل كرت له حجم ثابت ولا ينكمش */
 .cards-wrapper > div {
-  min-width: 320px; 
+  width: 320px; 
   flex-shrink: 0;
 }
 @media (max-width: 768px) {
@@ -52,7 +52,7 @@
   }
 
   .cards-wrapper > div {
-    min-width: 280px; /* تصغير عرض الكرت قليلاً ليناسب الموبايل */
+    width: 280px; /* تصغير عرض الكرت قليلاً ليناسب الموبايل */
     flex-shrink: 0;
   }
 }

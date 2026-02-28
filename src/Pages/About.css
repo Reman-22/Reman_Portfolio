@@ -9,9 +9,10 @@
     margin: 20px;
 }
 .imgs{
-    background-image: url('/public/Images/Circles.png');
+    background-image: url('/Reman_Portfolio/public/Images/Circles.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     width: 40%;
     height: 350px;
     position: relative;
@@ -20,7 +21,7 @@
 }
 .icon {
     position: absolute;
-    width: 50px;
+    max-width: 50px;
     height: 50px;
     transition: transform 0.3s ease;
 }
@@ -34,7 +35,7 @@
 .css { top: 50%; left: 40%; } 
 .figma { top: 30%; right: 35%; }
 .github { bottom: 35%; left: 15%; }
-.react { bottom: 20%; right: 35%; }
+.react { bottom: 20%; right: 25%; }
 
 /* حركة بسيطة (floating) */
 @keyframes float {
@@ -53,14 +54,15 @@
         justify-content: center;
     }
     .imgs{
-        width: 80%;
-        height: 300px;
-        background-size: contain;
-        margin-top: 20px;
-    }
-        .icons{
-        width: 30px;
-        height: 30px;
+    background-repeat: no-repeat;
+        width: 100%;
+        padding: 0;
+        .icon{
+            width: 15%;
         }
-    
+    }
+    .info{
+        margin-top: 0;
+        margin-left: 0;
+    }
 }

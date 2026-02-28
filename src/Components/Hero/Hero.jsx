@@ -7,12 +7,12 @@ const Hero =({title, description , btn })=> {
         <div className={styles.bg}>
       <h1 className={styles.title}>{title}</h1>
       <p className={styles.description}>{description}</p>
-      <button className={styles.btn}> <a href='/Reman Hamadah CV.pdf' download="Reman_CV">{btn}</a> </button>
+      <button className={styles.btn}> <a href='/Reman_Portfolio/Reman Hamadah CV.pdf' download="Reman_CV">{btn}</a> </button>
       </div>
       </div>
       <div className={styles.image_container}>
         <div className={styles.Circle}>
-        <img src="/Images/myImage.png" alt="my image" className={styles.Image} />
+        <img src="/Reman_Portfolio/Images/myImage.png" alt="my image" className={styles.Image} />
       </div>
       <div className={styles.Circle_purple}></div>
         <div className={styles.Circle_purple1}></div>

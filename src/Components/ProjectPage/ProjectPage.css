@@ -10,6 +10,24 @@
 }
 .content{
     margin:2% 5%;
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .iconArrow{
+            font-size: 25px;
+            color: #0C96E2;
+            :hover{
+            transform: scale(1.2);
+        }
+        }
+        button{
+        border: none;
+        background: transparent;
+        outline: none;
+        
+    }
+    }
     .desc{
         flex-wrap: wrap;
         width: 50%;
@@ -45,5 +63,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    
+    .content .desc{
+        width: 100%;
+        text-align: right;
     }
-}
+}}

@@ -5,7 +5,7 @@
     text-align: start;
     margin:10%  5%;
     position: relative;
-    background-image: url('/public/Images/Vector\ 1.png'),url('/public/Images/Vector\ 3.png');
+    background-image: url('/Reman_Portfolio/public/Images/Vector\ 1.png'),url('/Reman_Portfolio/public/Images/Vector\ 3.png');
      .Hero1::before{
         content:"";
         position: absolute;
@@ -94,10 +94,10 @@
     z-index: 2;
 } 
 .Circle_purple{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color:rgb(183, 76, 183);
-    right: 60%; 
+    right: 70%; 
     top: 0;
     z-index: 1;
     position: absolute;

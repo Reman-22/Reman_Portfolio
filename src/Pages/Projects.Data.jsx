@@ -7,7 +7,8 @@ export const ProjectsData =[
         languages:"HTML ,CSS,JavaScript",
         framework:"React.js(Vite)",
         libraries:"React Router Dom , React Icons",
-        githubLink:"https://reman-22.github.io/trippy/",
+        githubDemo:"https://reman-22.github.io/trippy/",
+        githubRepo:"https://github.com/Reman-22/trippy",
     },
     {
         id:"1",
@@ -17,7 +18,8 @@ export const ProjectsData =[
         languages:"HTML ,CSS,JavaScript",
         framework:"React.js(Vite)",
         libraries:"React Router Dom , React Icons",
-        githubLink:"https://github.com/Reman-22/blogs",
+        githubDemo:"https://reman-22.github.io/blogs/",
+        githubRepo:"https://github.com/Reman-22/blogs",
     },
     {
         id:"2",
@@ -27,7 +29,8 @@ export const ProjectsData =[
         languages:"HTML ,CSS,JavaScript",
         framework:"React.js(Vite)",
         libraries:"React Router Dom , React Icons",
-        githubLink:"https://github.com/Reman-22/DashBoard",
+        githubDemo:"https://reman-22.github.io/DashBoard/",
+        githubRepo:"https://github.com/Reman-22/DashBoard",
     },
     {
         id:"3",
@@ -37,7 +40,8 @@ export const ProjectsData =[
         languages:"HTML ,CSS,JavaScript",
         // framework:
         // libraries:
-        githubLink:"https://github.com/Reman-22/Restaurant",
+        githubDemo:"https://reman-22.github.io/Restaurant/",
+        githubRepo:"https://github.com/Reman-22/Restaurant",
     },
     {
         id:"4",
@@ -47,7 +51,8 @@ export const ProjectsData =[
         languages:"HTML ,CSS,JavaScript",
         // framework:
         // libraries:
-        githubLink:"https://github.com/Reman-22/Medication",
+        githubDemo:"https://reman-22.github.io/Medication/",
+        githubRepo:"https://github.com/Reman-22/Medication",
     },
     {
         id:"5",
@@ -56,4 +61,8 @@ export const ProjectsData =[
         description:"موقع استعراضي تفاعلي مخصص لأجهزة iPhone، يركز على إبراز جمالية التصميم والمواصفات التقنية الفائقة للأجهزة من خلال واجهة مستخدم تعتمد على البساطة والأناقة. يتميز المشروع باستخدام تأثيرات بصرية وسلسة في التنقل، مع عرض تفصيلي للمميزات المبتكرة والكاميرا والأداء، مما يخلق تجربة تصفح غامرة تحاكي المواقع الرسمية للمنتجات التقنية الرائدة.",
         languages:"HTML ,CSS,JavaScript",
         // framework:
- 
+        // libraries:
+        githubDemo:"https://reman-22.github.io/Project_iPhone/",
+        githubRepo:"https://github.com/Reman-22/Project_iPhone",
+    }
+]

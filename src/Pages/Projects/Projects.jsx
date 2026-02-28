@@ -11,9 +11,17 @@ const Projects = ({sectionRef}) => {
             </a>
         </div>
     <div className='cards'>
-        <ProjectCard id="0" img1="/Reman_Portfolio/Images/Travel.jpg" title="Travel website" description="Html-Css3-Vanilla javscript"/>
-        <ProjectCard id="1" img1="/Reman_Portfolio/Images/Blogs.jpg" title="Blogs website" description="Html-Css3-Vanilla javscript"/>
-        <ProjectCard id="2" img1="/Reman_Portfolio/Images/DashBoard.jpg" title="DashBoard website" description="Html-Css3-Vanilla javscript"/>
+        <ProjectCard id="0" img1="/Reman_Portfolio/Images/Travel.jpg" title="Travel website" description="Html-Css3-React.js(Vite)"/>
+        <ProjectCard id="1" img1="/Reman_Portfolio/Images/Blogs.jpg" title="Blogs website" description="Html-Css3-React.js(Vite)"/>
+        <ProjectCard id="2" img1="/Reman_Portfolio/Images/DashBoard.jpg" title="DashBoard website" description="Html-React.js(Vite)"/>
         <ProjectCard id="3" img1="/Reman_Portfolio/Images/food.jpg" title=" Restaurant website" description="Html-Css3-Vanilla javscript"/>
         <ProjectCard id="4" img1="/Reman_Portfolio/Images/medicine.jpg" title="Medicine website" description="Html-Css3-Vanilla javscript"/>
-        <ProjectCard id="5" img1="/Reman_Portfolio/Images/iPhon.jpg" title="iPhone website" description="Html-
+        <ProjectCard id="5" img1="/Reman_Portfolio/Images/iPhon.jpg" title="iPhone website" description="Html-Css3-Vanilla javscript"/>
+        
+
+    </div>
+    </div>
+  )
+}
+
+export default Projects

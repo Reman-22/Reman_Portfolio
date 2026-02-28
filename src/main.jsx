@@ -43,4 +43,6 @@ const routes =createBrowserRouter([
 ],{basename:"/Reman_Portfolio"})
 createRoot(document.getElementById('root')).render(
   <StrictMode >
-    <RouterProvider router=
+    <RouterProvider router={routes} />
+  </StrictMode>,
+)
