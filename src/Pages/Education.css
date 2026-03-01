@@ -37,7 +37,7 @@
     color: white;
     border-radius: 32px;
     width: 70%;
-    background-image: url('/Reman_Portfolio/public/Images/Vector\ 1.png'),url('/Reman_Portfolio/public/Images/Vector\ 3.png');
+    background-image: url('/Reman_Portfolio/Images/Vector\ 1.png'),url('/Reman_Portfolio/Images/Vector\ 3.png');
     background-size: cover;
     box-shadow:  -10px 10px 5px rgba(0,188,212,0.5);
 }

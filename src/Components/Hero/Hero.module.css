@@ -5,7 +5,7 @@
     text-align: start;
     margin:10%  5%;
     position: relative;
-    background-image: url('/Reman_Portfolio/public/Images/Vector\ 1.png'),url('/Reman_Portfolio/public/Images/Vector\ 3.png');
+    background-image: url('/Reman_Portfolio/Images/Vector\ 1.png'),url('/Reman_Portfolio/Images/Vector\ 3.png');
      .Hero1::before{
         content:"";
         position: absolute;
@@ -40,7 +40,7 @@
         padding: 10px;
         font-weight: 400;
         width: 60%;
-        color: #43495B;
+        color: inherit;
     }
     .btn{
         background-color: #fff;
@@ -68,12 +68,12 @@
     position: relative;
     width: 100%;
     max-width: 400px;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    overflow: visible;
+    /* overflow: visible; */
 }
     .Circle{
         position: absolute;
@@ -96,7 +96,7 @@
 .Circle_purple{
     width: 40px;
     height: 40px;
-    background-color:rgb(183, 76, 183);
+    background-color:rgb(194, 90, 194);
     right: 70%; 
     top: 0;
     z-index: 1;
